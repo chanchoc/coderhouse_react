@@ -1,9 +1,7 @@
-import classes from "./ItemListContainer.module.css";
-
-const ItemListContainer = () => {
+const ItemListContainer = ({ web }) => {
     return (
-        <main className={classes.main}>
-            <h1>Bienvenidos a Rowa Bags!</h1>
+        <main style={{ maxWidth: "1400px", margin: "0 auto", marginTop: "85px", paddingTop: "20px", textAlign: "center" }}>
+            <h1>Bienvenidos a {web}!</h1>
         </main>
     );
 };

@@ -5,7 +5,7 @@ function App() {
     return (
         <>
             <NavBar />
-            <ItemListContainer />
+            <ItemListContainer web="Rowa Bags" />
         </>
     );
 }
