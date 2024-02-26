@@ -1,0 +1,9 @@
+.carrito img {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+}
+
+.carrito img:hover {
+    content: url(./assets/cart-hover.png);
+}
