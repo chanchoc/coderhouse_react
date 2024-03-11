@@ -1,0 +1,45 @@
+.carrito {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.control {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.control button,
+.control p,
+.add_cart {
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 60px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.control p {
+    width: 100px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    cursor: auto;
+}
+
+.add_cart {
+    width: 240px;
+}
+
+.stock {
+    font-size: 0.9rem;
+}

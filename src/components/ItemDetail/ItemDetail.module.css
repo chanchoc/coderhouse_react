@@ -1,0 +1,39 @@
+.productMainGrid {
+    display: grid;
+    grid-template-areas: "productImgs productDescr";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    padding: 0 20px;
+}
+
+.product_imgs {
+    grid-area: productImgs;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.product_imgs > img {
+    max-width: 100%;
+    min-width: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    max-height: 2000px;
+}
+
+.product_descr {
+    grid-area: productDescr;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.titles h1 {
+    font-size: 3rem;
+}
+
+.titles h2 {
+    font-size: 2rem;
+}

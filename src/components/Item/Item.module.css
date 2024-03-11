@@ -1,0 +1,41 @@
+.product {
+    flex-flow: column wrap;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    background-color: #c2c0c4;
+    transition: 0.5s;
+    color: black;
+    position: relative;
+}
+
+.product:hover {
+    filter: brightness(0.75);
+    box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
+    transform: translate(0px, -0.3rem);
+}
+
+.product img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 5px 5px 0px 5px;
+}
+
+.product h2,
+.product h3 {
+    padding: 10px 0px 0px 0px;
+}
+
+.product h3 {
+    font-weight: normal;
+}
+
+.item_link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
