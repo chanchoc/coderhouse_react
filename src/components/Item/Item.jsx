@@ -5,7 +5,7 @@ const Item = ({ id, name, img, price }) => {
     return (
         <Link className={classes.item_link} to={`/item/${id}`}>
             <div className={classes.product}>
-                <img src={img} />
+                <img src={img} alt={name} />
                 <h2>{name}</h2>
                 <h3>${price.toLocaleString()}</h3>
             </div>
