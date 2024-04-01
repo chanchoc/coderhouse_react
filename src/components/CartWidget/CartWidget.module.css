@@ -4,6 +4,6 @@
     object-fit: cover;
 }
 
-.carrito img:hover {
+.carrito:hover img {
     content: url(./assets/cart-hover.png);
 }

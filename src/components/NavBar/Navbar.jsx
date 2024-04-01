@@ -27,7 +27,7 @@ const NavBar = () => {
                         <Link to="/">LOG IN</Link>
                     </li>
                     <li>
-                        <CartWidget cartProducts={2} />
+                        <CartWidget />
                     </li>
                 </ul>
             </nav>
